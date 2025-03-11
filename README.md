@@ -1,16 +1,25 @@
-## Hi there 👋
+## Olá, sou Larissa Evelyn 👋🏾
 
-<!--
-**lariihz/lariihz** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+👩🏾‍💻 Cursando Tecnico em desenvolvimento de Sistemas.
 
-Here are some ideas to get you started:
+[![blog](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white
+)]()
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+
+![lariihz GitHub stats](https://github-readme-stats.vercel.app/api?username=lariihz&show_icons=true&theme=synthwave)
+
+### Linguagens que uso no meu dia a dia 
+
+
+<div style = "display: inline_block">
+<img aligh = "center" alt = "html" src = "https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+<img aligh = "center" alt = "css" src = "https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white"/
+>
+<img aligh = "center" alt = "java" src = "https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
+<img aligh = "center" alt = "php" src = "https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"/>
+<img aligh = "center" alt = "MySQL" SRC = "https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white"/>
+<img aligh = "center" alt = "PostgreSQL" SRC = "https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white
+"/>
+
+
+Apaixonada por tecnologia, buscando por aprendizado cada dia mais 🥰
