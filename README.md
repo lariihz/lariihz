@@ -3,7 +3,7 @@
 👩🏾‍💻 Cursando Tecnico em desenvolvimento de Sistemas.
 
 [![blog](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white
-)]()
+)](https://www.linkedin.com/in/larissa-evelyn-081905254/)
 
 
 ![lariihz GitHub stats](https://github-readme-stats.vercel.app/api?username=lariihz&show_icons=true&theme=synthwave)
