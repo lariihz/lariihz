@@ -18,7 +18,6 @@
 <img aligh = "center" alt = "java" src = "https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
 <img aligh = "center" alt = "php" src = "https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"/>
 <img aligh = "center" alt = "MySQL" SRC = "https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white"/>
-<img aligh = "center" alt = "PostgreSQL" SRC = "https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white
-"/><br/>
+<br/>
 
 ### Apaixonada por tecnologia, buscando por aprendizado cada dia mais 🥰
