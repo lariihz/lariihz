@@ -4,8 +4,8 @@
 
 [![blog](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white
 )](https://www.linkedin.com/in/larissa-evelyn-081905254/)
-[![blog](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)]
-(https://mail.google.com/mail/u/1/#inbox)
+![blog](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)
+
 
 
 ![lariihz GitHub stats](https://github-readme-stats.vercel.app/api?username=lariihz&show_icons=true&theme=synthwave)<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lariihz&layout=compact&langs_count=16&theme=dracula">
