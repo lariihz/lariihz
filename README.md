@@ -6,7 +6,9 @@
 )](https://www.linkedin.com/in/larissa-evelyn-081905254/)
 
 
-![lariihz GitHub stats](https://github-readme-stats.vercel.app/api?username=lariihz&show_icons=true&theme=synthwave)
+![lariihz GitHub stats](https://github-readme-stats.vercel.app/api?username=lariihz&show_icons=true&theme=synthwave)<br/>
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lariihz&layout=compact&langs_count=16&theme=dracula">
+
 
 ### Linguagens que uso no meu dia a dia 
 
