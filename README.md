@@ -1,5 +1,6 @@
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=6600CC&height=120&section=header"/>
-### Olá, sou Larissa Evelyn 👋🏾
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0000FF,FF00FF&height=120&section=header"/>
+
+## Olá, sou Larissa Evelyn 👋🏾
 
 👩🏾‍💻 Cursando Tecnico em desenvolvimento de Sistemas. <BR/>
 👩🏾‍💻 Cursando Bacharelado na Puc - Minas.
@@ -26,4 +27,3 @@
 <br/>
 
 ### Apaixonada por tecnologia, buscando por aprendizado cada dia mais 🥰
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=6600CC&height=120&section=header"/>
