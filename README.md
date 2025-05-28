@@ -3,23 +3,10 @@
 👩🏾‍💻 Cursando Tecnico em desenvolvimento de Sistemas. <BR/>
 👩🏾‍💻 Cursando Bacharelado na Puc - Minas.
 
-<button id="emailBtn">
-  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
-</button>
-
-<p id="emailText" style="display:none; font-size:16px; margin-top:10px; color:#D14836;">
-  larissae1201@gmail.com
-</p>
-
-<script>
-  document.getElementById('emailBtn').addEventListener('click', () => {
-    const emailText = document.getElementById('emailText');
-    emailText.style.display = emailText.style.display === 'none' ? 'block' : 'none';
-  });
-</script>
-
-
-
+[![blog](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white
+)](https://www.linkedin.com/in/larissa-evelyn-081905254/)
+[![blog](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)
+](https://mail.google.com/mail/u/1/#inbox)
 
 ![lariihz GitHub stats](https://github-readme-stats.vercel.app/api?username=lariihz&show_icons=true&theme=synthwave)<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lariihz&layout=compact&langs_count=16&theme=dracula">
 
