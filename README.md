@@ -24,4 +24,3 @@
 <br/>
 
 ### Apaixonada por tecnologia, buscando por aprendizado cada dia mais 🥰
-![snake gif](https://github.com/lariihz/lariihz/blob/output/github-contribution-grid-snake.svg)
