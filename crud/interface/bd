@@ -1,0 +1,331 @@
+🚀lEMBRETES PARA PROVA DE AMANHA 
+1. primeira coisa
+Ter as ferramentas certas instaladas
+-Java jdk 
+- Vs code 
+Java Extensioon Pack 
+Spring Boot Extension  Pack 
+
+🚀Dependencias 
+Spring Wb 
+Spring DAta JPA
+Mysql Driver 
+Lombok
+
+🚀"Entender a estrutura basica"
+CRUD = create, Read, Uptade, Delete 
+essa ações geralmete envolvem\;
+- Classes/Entidades [model] (Java)
+- Repositorios [repository] (Acesso ao banco)
+- Controladores [controller]
+- Serviços [service] (regras de negocios)
+- Banco de dados (MYsql. postgresql, h2, etc) 
+ 
+🚀Linguagem Java - conceito que voce precisa saber 
+poo - programação orientada a objeto 
+classes, objeto, atributos, metodos, herança, encapsulamento 
+ 
+🚀 Manipulação de dados 
+ colletins (List, Map) 
+ 
+ 🚀TRatamento de exceçoes 
+ try-catch, throw, hrows
+ Anotaçoes (@) do spring 
+ 
+ 🚀Spring boot (para crud com api rest) 
+ se for um prjeto webrest, o caminho ideal é usar spring boot
+ @RestController = Define roras de api 
+ @GetMapping, @PostMapping = Define cada operações
+ @entity = Define a classe que sera salva no banco 
+ @repository = interface para salvar, listar, deletar obejtos 
+ @service = logica de aplicaçoes 
+ @Autowired = Injeção de dependencia
+ 
+ 🚀BANCO DE DADS +JPA/HIBERNATE 
+ 
+ - Configurar conexão com mysql, postgre ou h2 
+ - Usar application.properties ou aplcation.yml
+ - Saber criar tabelas via entidades 
+ 
+ 🚀FERRAMENTAS UTEIS 
+ 
+ - Postman ou INsominia 
+ - Swagger 
+ - Lombok 
+ 
+ 🚀EXEMPLOS PRATICO SIMPLES CRUD 
+ Entidade java :
+ 📁model
+ @entity 
+ public class aluno { 
+ @id 
+ @GeneratedValue (stategy = GenerationType.INDENTITY)
+ private long id;
+ private string nome;
+ private string email;
+ } 
+ 
+ 📁REPOSITORY 
+ public interface AlunoRepository extends JpaRepository <aluno, Long> {}
+ 
+ 📁CONTROLLER 
+ @RestController 
+ @RequestMapping("/alunos")
+ public class AlunoController {
+ @Autowired
+ private AlunoRepository repo;
+ @PostMapping 
+ Public Aluno salvar (@RequestBody Aluno aluno) {
+ return repo.save(aluno);
+ }
+ 
+ @GetMapping 
+ public List <Aluno> listar () {
+ return repo.findAll();
+ }
+ 
+ @PutMapping ("/{id}")
+ public Aluno atualizar (@PathVariable Long id, @REquestBody ALuno aluno)
+ aluno.setid (id);
+ return repo.save(aluno);
+ }
+ 
+ @DeleteMapping ("/{id}")
+ public vois deletar (@PathVariable Long Id) {
+ repo.deletarBYId(id);
+ }
+ 
+}
+
+📁PROJETO BASE PARA ME AJUDAR NA PROVA AMANHA 
+
+✅ESTRUTURA DO PROJETO
+ 
+ - src 
+ -- main
+ ---java./com.example.alunos/
+    .  AlunoApplication.java
+    .  Model/Aluno.java
+    .  repository/ALunoRepository.java
+    .  controller/AlunoController.java
+ --resources/application.properties
+   
+ ✅PASSO A PASSO COM CODIGO 
+ 
+ ✅1. Aluno.java (entidade)
+ 
+ package com.example.alunos.model;
+ 
+ import jakarta.persistence. * ;
+ 
+ @Entity 
+ public class ALuno {
+ @id 
+ @getters @setters 
+ @GeneratedValue (strategy = GenerationType.IDENTITY)
+ private Long id;
+ private String nome;
+ private String email;
+ private STring curso;
+ }
+ 
+ ✅AlunoRepository.java 
+ 
+ package com.example.alunos.repository;
+ 
+ import com.example.alunos.model.aluno;
+ import org.sppringframework.data.jpa.repository.jparepositoy;
+ 
+ public interface AlunoREpository extends JpaRepository <Aluno, Long> {
+ }
+ 
+ 
+✅AlunoController.java 
+package com.example.alunos.controller;
+
+import com.example.alunos.model.aluno;
+import com.example.alunos.repository.AlunoREpository;
+import org.springfrawork.beans.factory.anootaction.Autowired;
+
+import java.util.List;
+
+@RestController 
+@Requestmapping ("/alunos")
+public class AlunoController {
+
+@Autowired
+private AlunoRepository repo;
+
+@GetMApping 
+public LIst <Aluno> listar () {
+return repo.findAll ();
+}
+
+@PostMapping 
+public Aluno salvar (@RequestBody Aluno aluno) {
+return repo.save (aluno);
+}
+
+@PutMapping ("/{id}")
+public Aluno atualizar (@PathVariable Long id, @RequestBody Aluno aluno
+aluno.setId(id);
+return repo.save (aluno);
+}
+
+@DeleteMapping ("/{id}")
+public void deletar (@PathVariable Long id) {
+repo.deleteById(id);
+}
+}
+
+
+✅APPLICATION.PROPERTIES 
+
+// coneção com mysql 
+spring.datasource.url=jdbc:mysql://localhost:3306/banco_alunos
+spring.datasource.username= root
+spring.datasource.password=
+spring.jpa.hibernate.ddl-auto = uptade
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.dialect-org.hibernate.dialect.mysql8Dialect 
+server.port = 8080
+
+
+✅AlunosApplication.java 
+
+package com.example.alunos;
+
+import org.springframework.boot.SpringApplication;
+import org.pringFrameword.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootAplication 
+public class AlunoApplication {
+public static void main (String [] args) {
+SpringApplication.run(AlunosApplication.class, args);
+
+}
+}
+
+✅CRIANDO O BANCO COM MYSQL 
+
+create  DATABASE banco_alunos;
+
+
+✅RODAR NO VSCODE 
+-run java
+-digita ./mvnm spring-boot:run 
+
+
+✅TESTAR A API 
+-insominia 
+
+GET - http://localhost:8080/alunos
+POST - http://localhost:8080/alunos (Com json no body)
+
+{
+"nome":"Larissa";
+"email":"larissa@gmail.com",
+"curso":"engenharia de software"
+}
+
+
+✅INTERFACE 
+index.html 
+
+<!DOCTYPE html>
+<html lang ="pt-br">
+<head>
+<meta charset = "UTF-8">
+<title> Cadastro de Alunos</title>
+<script src = "https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script"
+<style>
+body { font-family:Arial; margin: 30px;}
+input, button (margin:5 px; padding: 5px;}
+table {border-collapse:collapse, width: 100%; margin-top:20px;}
+th, td {border:1px solid #ccc; padding:8 px; text-align:left;}
+</style>
+</head>
+<body>
+<h1>cadastro de alunos</h1>
+<input type="text" id="nome" placeholder="nome">
+<input type="email" id="email" placeholder="email">
+<input type="text" id="curso" placeholder="Curso">
+<button onclick= "SalvarAluno()" >Salvar</button>
+
+<table>
+<thead>
+ <tr><th>ID</th><th>Nome</th><th>Email</th><th>Curso</th><th>Ações</th></tr>
+ </thead>
+ <tbody id ="Tabel-aluno"></tbody>
+</table>
+
+<script>
+cont API = "http://localhost:8080;alunos';
+let alunoEditando = null;
+
+function carregarAlunos() {
+axios.get (API). then ( res => {
+const alunos = res.data;
+const tbody = document.getElementById ('tabela-alunos');
+tbody.innerHTML = '';
+alunos.forEach (a => {
+tdbody.innerHTML += '
+<tr>
+              <td>${a.id}</td>
+              <td>${a.nome}</td>
+              <td>${a.email}</td>
+              <td>${a.curso}</td>
+              <td>
+                <button onclick='editarAluno(${JSON.stringify(a)})'>Editar</button>
+                <button onclick='deletarAluno(${a.id})'>Excluir</button>
+              </td>
+            </tr>
+          `;
+        });
+      });
+    }
+
+    function salvarAluno() {
+      const aluno = {
+        nome: document.getElementById('nome').value,
+        email: document.getElementById('email').value,
+        curso: document.getElementById('curso').value
+      };
+
+      if (alunoEditando) {
+        axios.put(`${API}/${alunoEditando.id}`, aluno).then(() => {
+          alunoEditando = null;
+          limparCampos();
+          carregarAlunos();
+        });
+      } else {
+        axios.post(API, aluno).then(() => {
+          limparCampos();
+          carregarAlunos();
+        });
+      }
+    }
+
+    function editarAluno(aluno) {
+      alunoEditando = aluno;
+      document.getElementById('nome').value = aluno.nome;
+      document.getElementById('email').value = aluno.email;
+      document.getElementById('curso').value = aluno.curso;
+    }
+
+    function deletarAluno(id) {
+      axios.delete(`${API}/${id}`).then(() => carregarAlunos());
+    }
+
+    function limparCampos() {
+      document.getElementById('nome').value = '';
+      document.getElementById('email').value = '';
+      document.getElementById('curso').value = '';
+    }
+
+    carregarAlunos();
+  </script>
+</body>
+</html>
+
+ 
