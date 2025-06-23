@@ -1,6 +1,6 @@
 ## Olá, sou Larissa Evelyn 👋🏾
 
-👩🏾‍💻 Cursando Técnico em Desenvolvimento de Sistemas  
+👩🏾‍💻 Cursando Técnico em Desenvolvimento de Sistemas - SENAI
 🎓 Cursando Bacharelado na PUC Minas
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/larissa-evelyn-081905254/)
