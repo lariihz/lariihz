@@ -1,3 +1,5 @@
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=A020F0&height=115&section=header"/>
+
 ## Olá, sou Larissa Evelyn 👋🏾
 
 👩🏾‍💻 Cursando Técnico em Desenvolvimento de Sistemas - SENAI
@@ -29,3 +31,6 @@
 ---
 
 ### 🌟 Apaixonada por tecnologia, buscando aprender mais a cada dia! 🥰
+
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=A020F0&height=115&section=footer"/>
+
