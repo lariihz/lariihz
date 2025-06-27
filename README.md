@@ -24,6 +24,8 @@
   <img align="center" alt="mysql" src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white"/>
   <img align="center" alt="postgresql" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/>
 </div>
+![Minhoquinha de progresso](https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif)
+
 
 ---
 
