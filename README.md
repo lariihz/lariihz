@@ -40,6 +40,9 @@ Apaixonada por tecnologia e sempre buscando aprender e evoluir! 🚀
 
 ### 🌟 Apaixonada por tecnologia, buscando aprender mais a cada dia! 🥰
 
+
+    "O sucesso é a soma de pequenos esforços repetidos dia após dia." – Robert Collier
+
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Emanuel-cs/Emanuel-cs/output/github-contribution-grid-snake-dark.svg" />
