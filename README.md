@@ -3,7 +3,7 @@
 # Olá, eu sou a Larissa Evelyn 👋🏾
 
 ### 👩🏾‍💻 Sobre mim
-Sou estudante de **Técnico em Desenvolvimento de Sistemas** pelo SENAI e também curso **Bacharelado** na PUC Minas.  
+Sou estudante de **Técnico em Desenvolvimento de Sistemas** pelo SENAI e também curso na PUC Minas.  
 Apaixonada por tecnologia e sempre buscando aprender e evoluir! 🚀
 
 ---
