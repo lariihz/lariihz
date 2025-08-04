@@ -2,8 +2,8 @@
 
 # Olá, eu sou a Larissa Evelyn 👋🏾
 
-### 👩🏾‍💻 Sobre mim
-Sou estudante de **Técnico em Desenvolvimento de Sistemas** pelo SENAI e também curso na PUC Minas.  
+### 👩🏾‍💻 Sobre mim  
+Sou estudante de **Técnico em Desenvolvimento de Sistemas** pelo SENAI e também bacharelado em Sistema de Informação na PUC Minas.  
 Apaixonada por tecnologia e sempre buscando aprender e evoluir! 🚀
 
 ---
@@ -18,7 +18,7 @@ Apaixonada por tecnologia e sempre buscando aprender e evoluir! 🚀
 ### 📊 Minhas estatísticas no GitHub
 
 <div align="center">
-  <img alt="Estatísticas do GitHub" src="https://github-readme-stats.vercel.app/api?username=lariihz&show_icons=true&theme=synthwave" />
+  <img alt="Estatísticas do GitHub" src="https://github-readme-stats.vercel.app/api?username=lariihz&show_icons=true&theme=dracula" />
   <img alt="Linguagens mais usadas" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lariihz&layout=compact&langs_count=16&theme=dracula" />
 </div>
 
@@ -40,13 +40,12 @@ Apaixonada por tecnologia e sempre buscando aprender e evoluir! 🚀
 
 ### 🌟 Apaixonada por tecnologia, buscando aprender mais a cada dia! 🥰
 
-
-    "O sucesso é a soma de pequenos esforços repetidos dia após dia." – Robert Collier
+> O sucesso é a soma de pequenos esforços repetidos dia após dia. – Robert Collier
 
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Emanuel-cs/Emanuel-cs/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Emanuel-cs/Emanuel-cs/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Emanuel-cs/Emanuel-cs/output/github-contribution-grid-snake-light.svg" />
     <img alt="Contribuições no GitHub" src="https://raw.githubusercontent.com/lariihxz12/lariihxz12/output/github-contribution-grid-snake.svg" />
   </picture>
 </div>
