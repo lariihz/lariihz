@@ -3,7 +3,7 @@
 # Olá, eu sou a Larissa Evelyn 👋🏾
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?color=A020F0&size=22&center=true&vCenter=true&width=600&lines=Estudante+de+Sistemas+de+Informação;Técnica+em+Desenvolvimento+de+Sistemas;Focada+em+Desenvolvimento+Web;Sempre+aprendendo+novas+tecnologias+🚀" />
+  <img src="https://readme-typing-svg.herokuapp.com/?color=A020F0&size=22&center=true&vCenter=true&width=600&lines=Estudante+de+Sistemas+de+Informação;Técnica+em+Desenvolvimento+de+Sistemas;Focada+em+Desenvolvimento+Web;Estagiaria+em+DEV;Sempre+aprendendo+novas+tecnologias+🚀" />
 </p>
 
 ---
