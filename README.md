@@ -19,7 +19,7 @@ Busco constantemente evoluir minhas habilidades e adquirir experiência prática
 
 ## 🚀 Destaques
 
-- 🎓 Formação técnica em Desenvolvimento de Sistemas  
+- 🎓 Formação técnica Analise em Desenvolvimento de Sistemas  
 - 💻 Experiência com desenvolvimento web  
 - 📚 Aprendizado contínuo em novas tecnologias  
 - 🎯 Foco em crescimento profissional  
