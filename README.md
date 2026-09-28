@@ -10,7 +10,7 @@
 
 ## 👩🏾‍💻 Sobre mim
 
-Sou estudante de **Sistemas de Informação na PUC Minas** e formada em **Desenvolvimento de Sistemas pelo SENAI**.  
+Sou estudante de **Sistemas de Informação na PUC Minas**e também **Ciência da computação na Dom Helder** e formada em **Desenvolvimento de Sistemas pelo SENAI**.  
 Tenho interesse em desenvolvimento web, banco de dados e construção de soluções eficientes.
 
 Busco constantemente evoluir minhas habilidades e adquirir experiência prática na área de tecnologia.
